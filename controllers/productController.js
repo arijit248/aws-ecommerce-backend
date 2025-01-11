@@ -6,8 +6,8 @@ const { blobUrlToBuffer } = require("../utils/commonFunction.js");
 const s3 = new S3({
   region: "eu-north-1",
   credentials: {
-    accessKeyId: "AKIAZ7SAKYUO53A2X5P7", // Replace with your AWS Access Key ID
-    secretAccessKey: "SOIl45Vnqy97fPXUA5Qw7H4Gy25ypFbG3OD6/3MC", // Replace with your AWS Secret Access Key
+    accessKeyId: "", // Replace with your AWS Access Key ID
+    secretAccessKey: "", // Replace with your AWS Secret Access Key
   },
 });
 
